@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* p, h6, h5{
+    opacity: 0.7;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*#header{
+}*/
+#nav{
+    background: transparent;
+}
+.navbar-brand {
+  font-weight: 800;
+}
+nav.navbar {
+  color: #fff;
+}
+.navbar-expand-lg {
+  background: transparent;
+}
+a.nav-link:hover{
+  color:#2293D7;
+  transition: 0.4s ease-in-out;
+}
+
+
+.tac {
+  width: 100%;
+  margin: auto;
+  padding: 150px;
+  background-image: url("../img/v36-intro.jpg");
+  background-size: cover;
+  background-position: bottom 100%;
+}
+
+.tac h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Segoe UI";
+  color: #fff;
+}
+.tac h5 {
+  padding: 16px;
+  opacity: 0.7;
+  color: #fff;
+}
+
+/*-----WHAT WE DO------*/
+
+/*card1*/
+#card1 {
+  background: #fff;
+}
+p.text-center {
+  color: #000;
+}
+h1 {
+  font-size: 45px;
+}
+h5,
+.card-text {
+  opacity: 0.7;
+}
+
+.material-icons {
+  color: blue;
+  font-size: 75px;
+  border: none;
+}
+.card {
+  border: none;
+}
+
+/*section 2*/
+#card2 {
+  background: black;
+}
+#card2 h1 {
+  font-size: 50px;
+}
+
+/*section 3*/
+#card3 {
+  background: #fff;
+}
+/*#fix{
+  color: rgba(161,161,161,1);
+  border: 2px solid #738693;
+  border-color: rgba(221,221,221,1);
+  padding: 9px 20px;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+#fix:hover{
+  background-color: #4859fc;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  border: #4859fc;
+}*/
+/*Customers review*/
+#review{
+    background: #000;
+}
+
+.mt-5 .container .card .bg-danger img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Slider */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 5px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: white;
+}
+
+.swiper-slide img {
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+/*FROM OUR BLOG*/
+#from{
+    background: #fff;
+}
+.pt-3 .mit{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.card .card-body .ino a{
+    text-decoration: none;
+    font-size:20px;
+    color: #000;
+    font-weight: 600;
+}
+.card .card-body .ino a:hover{
+    color: blue !important;
+}
+.card-body a{
+    display: inline-block;
+}
+
+.text-center .ort a:hover{
+  background-color: #4859fc;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*NEVER MISS OUR UPDATES*/
+.never{
+    background: #738693;
+}
+.email-field {
+  height: 50px;
+  width: 1500px;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+/*footer*/
+#footer{
+
+    background: #fff;
+}
+
+.ficon{
+    padding: 10px;
+}
+.ficon a{
+    display: inline-block;
+    padding: 7px;
+}
+.bell a{
+    text-decoration: none;
+}
+
+/*BACK TO TOP*/
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  width: 40px;
+  height: 40px;
+}
+
+.fa-chevron-up{
+  line-height: 40px;
+  text-align: center;
+  background-color: #2293D7;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+/*MEDIA QUERY*/
+/* Phone */
+@media screen and (max-width: 425px) and (min-width: 1px) {
+  .tac {
+    padding: 30px;
+    
+  }
+  .hero_button {
+    width: 190px;
+    padding: 5px;
+  }
+  .col-lg-6 .hide .img{
+    margin:auto;
+    height: 30px;
+  }
+  .mt-5 .crv{
+    padding: 4px;
+  }
+ .d-flex .form-control{
+    width: 50px;
+    margin: auto;
+  }
+  .navbar ul li a:hover(not active){
+    color: greenyellow;
+  }
+  .email-field {
+    margin-bottom: 12px;
+  }
+  .swiper-slide img{
+    display: block;
+    width: auto;
+    height: 20px;
+    object-fit: cover;
+    padding: 5px;
+  }
+  /*#fix{
+    color: rgba(161,161,161,1);
+    border: 2px solid #738693;
+    border-color: rgba(221,221,221,1);
+    padding: 5px 12px;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }*/
+
+    h1,h2,h3,h4,h5,h6{
+      color: red;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) and (min-width: 426px) {
+      h1,h2,h3,h4,h5,h6{
+      color: red;
+    }
+}
+
+/* Laptop */
+@media screen and (max-width: 1441px) and (min-width: 769px) {
+      h1,h2,h3,h4,h5,h6{
+      color: red;
+    }
+}
+
+/*Bigger Laptop */
+@media screen and (max-width: 4000px) and (min-width: 1441px) {
+    h1,h2,h3,h4,h5,h6{
+      color: greenyellow;
+    }
+
+}
